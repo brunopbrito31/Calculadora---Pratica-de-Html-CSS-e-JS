@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background: linear-gradient(to right, #040404, #000000, #656565);
+}
+
+.topo{
+    text-align: center;
+    margin: 3% 0 2% 0;
+}
+
+.topo h1{
+    font-size: 5em;
+    font-family: Optima, sans-serif;
+    color: greenyellow;
+}
+
+.topo p{
+    color:#C0C0C0;
+}
+
+.topo button{
+    margin: 1% 0 1% 0;
+    background-color: greenyellow;
+    padding: 1% 2%;
+    font-size: 1.7em;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px 25px;
+}
+
+.container-principal{
+    background-color: rgb(77, 77, 77);
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 55%;
+    margin: 4% auto;
+    height: 500px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.container-principal .container-controle{
+    /* background-color: aqua; */
+    margin-left: 11%;
+    
+}
+
+.container-principal .container-controle .container-campo{
+    /* background-color:chocolate; */
+    width: 100%;
+    height: 15%;
+    text-align: left;
+    margin-bottom: 14%;
+}
+
+.container-campo label{
+    color:#C0C0C0;
+}
+
+.container-principal .container-controle .container-campo input{
+    width: 100%;
+    height: 80%;
+    font-size: 2em;
+    background-color:rgb(77, 77, 77);
+    border:none;
+    border-bottom: 0.7px solid #C0C0C0;
+    color: white;
+}
+
+.container-principal .container-controle button{
+    width: 100%;
+    height: 16%;
+    border-radius: 12px;
+    font-size: 2em;
+    background-color:rgb(153, 0, 255);
+    color:white;
+}
+
+.container-principal .container-resultados{
+    background: linear-gradient(to right, #040404, #000000, #656565);
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+}
+
+
+.container-resultados .container-campo-resultado{
+    margin-top: 25%;
+}
+
+.media-aprovado{
+    color:greenyellow;
+}
+
+.media-reprovado{
+    color:red;
+}
+
